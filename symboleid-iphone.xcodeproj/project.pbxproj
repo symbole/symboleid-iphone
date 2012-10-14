@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09494003162B31A700D7785E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09494002162B31A700D7785E /* UIKit.framework */; };
+		09494005162B31A700D7785E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09494004162B31A700D7785E /* Foundation.framework */; };
+		09494007162B31A700D7785E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09494006162B31A700D7785E /* CoreGraphics.framework */; };
+		0949400D162B31A700D7785E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0949400B162B31A700D7785E /* InfoPlist.strings */; };
+		0949400F162B31A700D7785E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0949400E162B31A700D7785E /* main.m */; };
+		09494013162B31A700D7785E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09494012162B31A700D7785E /* AppDelegate.m */; };
+		09494015162B31A700D7785E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09494014162B31A700D7785E /* Default.png */; };
+		09494017162B31A700D7785E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09494016162B31A700D7785E /* Default@2x.png */; };
+		09494019162B31A700D7785E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09494018162B31A700D7785E /* Default-568h@2x.png */; };
+		0949401C162B31A700D7785E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0949401B162B31A700D7785E /* ViewController.m */; };
+		0949401F162B31A700D7785E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0949401D162B31A700D7785E /* ViewController.xib */; };
+		09494027162B31A800D7785E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09494026162B31A800D7785E /* SenTestingKit.framework */; };
+		09494028162B31A800D7785E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09494002162B31A700D7785E /* UIKit.framework */; };
+		09494029162B31A800D7785E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09494004162B31A700D7785E /* Foundation.framework */; };
+		09494031162B31A800D7785E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0949402F162B31A800D7785E /* InfoPlist.strings */; };
+		09494034162B31A800D7785E /* symboleid_iphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09494033162B31A800D7785E /* symboleid_iphoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0949402A162B31A800D7785E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09493FF5162B31A700D7785E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09493FFD162B31A700D7785E;
+			remoteInfo = "symboleid-iphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09493FFE162B31A700D7785E /* symboleid-iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "symboleid-iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09494002162B31A700D7785E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09494004162B31A700D7785E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09494006162B31A700D7785E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0949400A162B31A700D7785E /* symboleid-iphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "symboleid-iphone-Info.plist"; sourceTree = "<group>"; };
+		0949400C162B31A700D7785E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0949400E162B31A700D7785E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09494010162B31A700D7785E /* symboleid-iphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "symboleid-iphone-Prefix.pch"; sourceTree = "<group>"; };
+		09494011162B31A700D7785E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09494012162B31A700D7785E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09494014162B31A700D7785E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09494016162B31A700D7785E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09494018162B31A700D7785E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0949401A162B31A700D7785E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0949401B162B31A700D7785E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0949401E162B31A700D7785E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		09494025162B31A800D7785E /* symboleid-iphoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "symboleid-iphoneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09494026162B31A800D7785E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0949402E162B31A800D7785E /* symboleid-iphoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "symboleid-iphoneTests-Info.plist"; sourceTree = "<group>"; };
+		09494030162B31A800D7785E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09494032162B31A800D7785E /* symboleid_iphoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = symboleid_iphoneTests.h; sourceTree = "<group>"; };
+		09494033162B31A800D7785E /* symboleid_iphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = symboleid_iphoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09493FFB162B31A700D7785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09494003162B31A700D7785E /* UIKit.framework in Frameworks */,
+				09494005162B31A700D7785E /* Foundation.framework in Frameworks */,
+				09494007162B31A700D7785E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09494021162B31A800D7785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09494027162B31A800D7785E /* SenTestingKit.framework in Frameworks */,
+				09494028162B31A800D7785E /* UIKit.framework in Frameworks */,
+				09494029162B31A800D7785E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09493FF3162B31A700D7785E = {
+			isa = PBXGroup;
+			children = (
+				09494008162B31A700D7785E /* symboleid-iphone */,
+				0949402C162B31A800D7785E /* symboleid-iphoneTests */,
+				09494001162B31A700D7785E /* Frameworks */,
+				09493FFF162B31A700D7785E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09493FFF162B31A700D7785E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09493FFE162B31A700D7785E /* symboleid-iphone.app */,
+				09494025162B31A800D7785E /* symboleid-iphoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09494001162B31A700D7785E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09494002162B31A700D7785E /* UIKit.framework */,
+				09494004162B31A700D7785E /* Foundation.framework */,
+				09494006162B31A700D7785E /* CoreGraphics.framework */,
+				09494026162B31A800D7785E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09494008162B31A700D7785E /* symboleid-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				09494011162B31A700D7785E /* AppDelegate.h */,
+				09494012162B31A700D7785E /* AppDelegate.m */,
+				0949401A162B31A700D7785E /* ViewController.h */,
+				0949401B162B31A700D7785E /* ViewController.m */,
+				0949401D162B31A700D7785E /* ViewController.xib */,
+				09494009162B31A700D7785E /* Supporting Files */,
+			);
+			path = "symboleid-iphone";
+			sourceTree = "<group>";
+		};
+		09494009162B31A700D7785E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0949400A162B31A700D7785E /* symboleid-iphone-Info.plist */,
+				0949400B162B31A700D7785E /* InfoPlist.strings */,
+				0949400E162B31A700D7785E /* main.m */,
+				09494010162B31A700D7785E /* symboleid-iphone-Prefix.pch */,
+				09494014162B31A700D7785E /* Default.png */,
+				09494016162B31A700D7785E /* Default@2x.png */,
+				09494018162B31A700D7785E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0949402C162B31A800D7785E /* symboleid-iphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				09494032162B31A800D7785E /* symboleid_iphoneTests.h */,
+				09494033162B31A800D7785E /* symboleid_iphoneTests.m */,
+				0949402D162B31A800D7785E /* Supporting Files */,
+			);
+			path = "symboleid-iphoneTests";
+			sourceTree = "<group>";
+		};
+		0949402D162B31A800D7785E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0949402E162B31A800D7785E /* symboleid-iphoneTests-Info.plist */,
+				0949402F162B31A800D7785E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09493FFD162B31A700D7785E /* symboleid-iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09494037162B31A800D7785E /* Build configuration list for PBXNativeTarget "symboleid-iphone" */;
+			buildPhases = (
+				09493FFA162B31A700D7785E /* Sources */,
+				09493FFB162B31A700D7785E /* Frameworks */,
+				09493FFC162B31A700D7785E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "symboleid-iphone";
+			productName = "symboleid-iphone";
+			productReference = 09493FFE162B31A700D7785E /* symboleid-iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09494024162B31A800D7785E /* symboleid-iphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0949403A162B31A800D7785E /* Build configuration list for PBXNativeTarget "symboleid-iphoneTests" */;
+			buildPhases = (
+				09494020162B31A800D7785E /* Sources */,
+				09494021162B31A800D7785E /* Frameworks */,
+				09494022162B31A800D7785E /* Resources */,
+				09494023162B31A800D7785E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0949402B162B31A800D7785E /* PBXTargetDependency */,
+			);
+			name = "symboleid-iphoneTests";
+			productName = "symboleid-iphoneTests";
+			productReference = 09494025162B31A800D7785E /* symboleid-iphoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09493FF5162B31A700D7785E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Olivier GOSSE-GARDET";
+			};
+			buildConfigurationList = 09493FF8162B31A700D7785E /* Build configuration list for PBXProject "symboleid-iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09493FF3162B31A700D7785E;
+			productRefGroup = 09493FFF162B31A700D7785E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09493FFD162B31A700D7785E /* symboleid-iphone */,
+				09494024162B31A800D7785E /* symboleid-iphoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09493FFC162B31A700D7785E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0949400D162B31A700D7785E /* InfoPlist.strings in Resources */,
+				09494015162B31A700D7785E /* Default.png in Resources */,
+				09494017162B31A700D7785E /* Default@2x.png in Resources */,
+				09494019162B31A700D7785E /* Default-568h@2x.png in Resources */,
+				0949401F162B31A700D7785E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09494022162B31A800D7785E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09494031162B31A800D7785E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09494023162B31A800D7785E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09493FFA162B31A700D7785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0949400F162B31A700D7785E /* main.m in Sources */,
+				09494013162B31A700D7785E /* AppDelegate.m in Sources */,
+				0949401C162B31A700D7785E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09494020162B31A800D7785E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09494034162B31A800D7785E /* symboleid_iphoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0949402B162B31A800D7785E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09493FFD162B31A700D7785E /* symboleid-iphone */;
+			targetProxy = 0949402A162B31A800D7785E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0949400B162B31A700D7785E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0949400C162B31A700D7785E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0949401D162B31A700D7785E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0949401E162B31A700D7785E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		0949402F162B31A800D7785E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09494030162B31A800D7785E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09494035162B31A800D7785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09494036162B31A800D7785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09494038162B31A800D7785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "symboleid-iphone/symboleid-iphone-Prefix.pch";
+				INFOPLIST_FILE = "symboleid-iphone/symboleid-iphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09494039162B31A800D7785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "symboleid-iphone/symboleid-iphone-Prefix.pch";
+				INFOPLIST_FILE = "symboleid-iphone/symboleid-iphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0949403B162B31A800D7785E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/symboleid-iphone.app/symboleid-iphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "symboleid-iphone/symboleid-iphone-Prefix.pch";
+				INFOPLIST_FILE = "symboleid-iphoneTests/symboleid-iphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0949403C162B31A800D7785E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/symboleid-iphone.app/symboleid-iphone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "symboleid-iphone/symboleid-iphone-Prefix.pch";
+				INFOPLIST_FILE = "symboleid-iphoneTests/symboleid-iphoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09493FF8162B31A700D7785E /* Build configuration list for PBXProject "symboleid-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09494035162B31A800D7785E /* Debug */,
+				09494036162B31A800D7785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09494037162B31A800D7785E /* Build configuration list for PBXNativeTarget "symboleid-iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09494038162B31A800D7785E /* Debug */,
+				09494039162B31A800D7785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0949403A162B31A800D7785E /* Build configuration list for PBXNativeTarget "symboleid-iphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0949403B162B31A800D7785E /* Debug */,
+				0949403C162B31A800D7785E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09493FF5162B31A700D7785E /* Project object */;
+}
