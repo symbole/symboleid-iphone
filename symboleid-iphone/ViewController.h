@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+@class SIDUser;
+@interface ViewController : UIViewController{
+    SIDUser *currentUser;
+}
 @end

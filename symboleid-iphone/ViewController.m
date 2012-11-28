@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "Constant.h"
+#import "SIDUser.h"
+#import "AppDelegate.h"
+#import "SIDWebSocket.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +19,10 @@
 
 - (void)viewDidLoad
 {
+    currentUser = [(AppDelegate *)[[UIApplication sharedApplication] delegate] currentUser];
+
     [super viewDidLoad];
+    [self addAllObserver];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +30,22 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)askPinCode:(NSNotification *)n{
+    PPLog(@"%@",n);
+    
+    UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Confirmation"
+                                                      message:[NSString stringWithFormat:@"Pin Code on your web browser is %@",currentUser.pin_code]
+                                                     delegate:nil
+                                            cancelButtonTitle:@"Cancel"
+                                            otherButtonTitles:@"Ok", nil];
+    [message show];
+    [[(AppDelegate *)[[UIApplication sharedApplication] delegate] websocket] sendMessage:@{@"cmd":@"test",@"args":@"test"}];
+}
+
+-(void)addAllObserver{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(askPinCode:) name:NotifAskPinCode object:nil];
 }
 
 @end

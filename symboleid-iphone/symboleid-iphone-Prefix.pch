@@ -11,4 +11,14 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+
 #endif
+
+//#ifdef APILA_DEBUG
+#define PPLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+//#define SetAppState(state) [(AppDelegate *)[[UIApplication sharedApplication] delegate] changeAppState:state];
+
+//#else
+//#define PPLog(...)
+//#endif

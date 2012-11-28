@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Account" representedClassName="Account" syncable="YES">
+        <attribute name="login" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="account_symbole" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Symbole" inverseName="symbole_account" inverseEntity="Symbole" syncable="YES"/>
+    </entity>
+    <entity name="Symbole" representedClassName="Symbole" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="symbole_account" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="account_symbole" inverseEntity="Account" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Symbole" positionX="-9" positionY="324" width="128" height="88"/>
+        <element name="Account" positionX="-225" positionY="225" width="128" height="133"/>
+    </elements>
+</model>
